@@ -1,0 +1,3 @@
+/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build/CMakeFiles/practica02_motor.dir
+/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build/CMakeFiles/edit_cache.dir
+/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build/CMakeFiles/rebuild_cache.dir
