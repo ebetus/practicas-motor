@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla
+CMAKE_SOURCE_DIR = /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build
+CMAKE_BINARY_DIR = /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/practica02_motor.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/practica02_motor.dir/codegen:
 .PHONY : CMakeFiles/practica02_motor.dir/codegen
 
 CMakeFiles/practica02_motor.dir/src/main.cpp.o: CMakeFiles/practica02_motor.dir/flags.make
-CMakeFiles/practica02_motor.dir/src/main.cpp.o: /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/src/main.cpp
+CMakeFiles/practica02_motor.dir/src/main.cpp.o: /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/src/main.cpp
 CMakeFiles/practica02_motor.dir/src/main.cpp.o: CMakeFiles/practica02_motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/practica02_motor.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practica02_motor.dir/src/main.cpp.o -MF CMakeFiles/practica02_motor.dir/src/main.cpp.o.d -o CMakeFiles/practica02_motor.dir/src/main.cpp.o -c /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/practica02_motor.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practica02_motor.dir/src/main.cpp.o -MF CMakeFiles/practica02_motor.dir/src/main.cpp.o.d -o CMakeFiles/practica02_motor.dir/src/main.cpp.o -c /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/src/main.cpp
 
 CMakeFiles/practica02_motor.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/practica02_motor.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/src/main.cpp > CMakeFiles/practica02_motor.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/src/main.cpp > CMakeFiles/practica02_motor.dir/src/main.cpp.i
 
 CMakeFiles/practica02_motor.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/practica02_motor.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/src/main.cpp -o CMakeFiles/practica02_motor.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/src/main.cpp -o CMakeFiles/practica02_motor.dir/src/main.cpp.s
 
 # Object files for target practica02_motor
 practica02_motor_OBJECTS = \
@@ -98,7 +98,7 @@ practica02_motor: CMakeFiles/practica02_motor.dir/build.make
 practica02_motor: CMakeFiles/practica02_motor.dir/compiler_depend.ts
 practica02_motor: /usr/lib/libSDL3.so.0.4.14
 practica02_motor: CMakeFiles/practica02_motor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable practica02_motor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable practica02_motor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/practica02_motor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/practica02_motor.dir/clean:
 .PHONY : CMakeFiles/practica02_motor.dir/clean
 
 CMakeFiles/practica02_motor.dir/depend:
-	cd /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build/CMakeFiles/practica02_motor.dir/DependInfo.cmake "--color=$(COLOR)" practica02_motor
+	cd /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/build /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/build /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/build/CMakeFiles/practica02_motor.dir/DependInfo.cmake "--color=$(COLOR)" practica02_motor
 .PHONY : CMakeFiles/practica02_motor.dir/depend
 

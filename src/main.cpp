@@ -17,10 +17,7 @@ struct Character {
 struct AppState {
   SDL_Renderer *renderer{nullptr};
   SDL_Window *window{nullptr};
-
-    // Temporizador para Delta Time
   Uint64 last_ticks{0};
-
   Character player;
   float physics_accumulator{0.0f};
 } appstate;
@@ -57,12 +54,13 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv)
     return SDL_APP_CONTINUE;
 }
 
-
+// Mueve al personaje
 void PhysicsUpdate(Character &character , const Vector2 &direction , float fixed_dt) {
   Vector2 displacement = direction * (character.speed * fixed_dt);
   character.position = character.position + displacement;
 }
 
+//Regresa si dos vectores estan en un radio de 5pxs.
 bool touching_radius(Vector2 &first , Vector2 &second) {
   float distancia_cuadrada = std::pow((first.x - second.x),2) + std::pow((first.y - second.y),2);
   //Radio de 5 pixeles
@@ -85,6 +83,7 @@ SDL_AppResult SDL_AppIterate(void *appstate)
         delta_time = 0.05f;
     }
 
+    //Parte comentada por la implementación del seguimiento del mouse.
     /*
     const bool *keys = SDL_GetKeyboardState(nullptr);
 
@@ -103,10 +102,12 @@ SDL_AppResult SDL_AppIterate(void *appstate)
       input_dir = input_dir.normalized();
       }*/
 
+    // Se obtiene la posicion del mouse
     float x,y;
     SDL_GetMouseState(&x , &y);
     Vector2 mouse{x , y};
 
+    //Se obtiene la direction del jugador hacia el mouse
     Vector2 direction = mouse - app->player.position;
 
     if(direction.length_squared() > 0.0f) {

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla
+CMAKE_SOURCE_DIR = /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build
+CMAKE_BINARY_DIR = /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/practica02_motor.dir/clean
 CMakeFiles/practica02_motor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica02_motor.dir/build.make CMakeFiles/practica02_motor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica02_motor.dir/build.make CMakeFiles/practica02_motor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build/CMakeFiles --progress-num=1,2 "Built target practica02_motor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/build/CMakeFiles --progress-num=1,2 "Built target practica02_motor"
 .PHONY : CMakeFiles/practica02_motor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/practica02_motor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/practica02_motor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/build/CMakeFiles 0
 .PHONY : CMakeFiles/practica02_motor.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ practica02_motor: CMakeFiles/practica02_motor.dir/rule
 # codegen rule for target.
 CMakeFiles/practica02_motor.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica02_motor.dir/build.make CMakeFiles/practica02_motor.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/plantilla/build/CMakeFiles --progress-num=1,2 "Finished codegen for target practica02_motor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/build/CMakeFiles --progress-num=1,2 "Finished codegen for target practica02_motor"
 .PHONY : CMakeFiles/practica02_motor.dir/codegen
 
 # clean rule for target.
