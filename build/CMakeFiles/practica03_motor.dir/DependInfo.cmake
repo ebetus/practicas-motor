@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/src/main.cpp" "CMakeFiles/practica02_motor.dir/src/main.cpp.o" "gcc" "CMakeFiles/practica02_motor.dir/src/main.cpp.o.d"
-  "" "practica02_motor" "gcc" "CMakeFiles/practica02_motor.dir/link.d"
+  "/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/src/main.cpp" "CMakeFiles/practica03_motor.dir/src/main.cpp.o" "gcc" "CMakeFiles/practica03_motor.dir/src/main.cpp.o.d"
+  "" "practica03_motor" "gcc" "CMakeFiles/practica03_motor.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

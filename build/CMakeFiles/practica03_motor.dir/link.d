@@ -1,8 +1,8 @@
-practica02_motor: \
+practica03_motor: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
-  CMakeFiles/practica02_motor.dir/src/main.cpp.o \
+  CMakeFiles/practica03_motor.dir/src/main.cpp.o \
   /usr/lib/libSDL3.so.0.4.14 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
@@ -42,7 +42,7 @@ practica02_motor: \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
 
-CMakeFiles/practica02_motor.dir/src/main.cpp.o:
+CMakeFiles/practica03_motor.dir/src/main.cpp.o:
 
 /usr/lib/libSDL3.so.0.4.14:
 

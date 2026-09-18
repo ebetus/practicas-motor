@@ -1,4 +1,5 @@
 #pragma once
+#include <cmath>
 
 struct Vector2 {
   float x{0.0f};
@@ -34,6 +35,24 @@ struct Vector2 {
     }
     return {0.0f , 0.0f};
   }
+
+  constexpr float clamp(const float &v , const float &lo , const float &hi) const{
+    if (v < lo) {
+        return lo;
+    } else if (hi < v) {
+        return hi;
+    } else {
+        return v;
+    }
+  }
+
+  constexpr Vector2 clamp(const Vector2 &vectorMIN , const Vector2 &vectorMAX) const{
+    return {
+      clamp(x , vectorMIN.x , vectorMAX.x),
+      clamp(y , vectorMIN.y , vectorMAX.y)
+    };
+  }
+  
   
 };
 
