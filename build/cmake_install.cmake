@@ -1,4 +1,4 @@
-# Install script for directory: /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor
+# Install script for directory: /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,7 +45,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/build/install_local_manifest.txt"
+  file(WRITE "/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

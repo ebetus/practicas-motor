@@ -16,4 +16,5 @@ public:
   virtual void Init() {}
   virtual void Update(float dt) {}
   virtual void Render(SDL_Renderer *renderer) {}
+  virtual void OnCollision(GameObject *other){}
 };

@@ -78,6 +78,12 @@ public:
       component->Render(renderer);
   }
 
+  void OnCollision(GameObject *other) {
+    if(!m_active) return;
+    for(auto &component : m_components)
+      component->OnCollision(other);
+  }
+
   
   
 

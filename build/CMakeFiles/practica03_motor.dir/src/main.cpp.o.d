@@ -1,5 +1,5 @@
 CMakeFiles/practica03_motor.dir/src/main.cpp.o: \
- /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/src/main.cpp \
+ /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/16/vector \
  /usr/include/c++/16/bits/requires_hosted.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -197,7 +197,7 @@ CMakeFiles/practica03_motor.dir/src/main.cpp.o: \
  /usr/include/SDL3/SDL_timer.h /usr/include/SDL3/SDL_tray.h \
  /usr/include/SDL3/SDL_version.h /usr/include/SDL3/SDL_oldnames.h \
  /usr/include/SDL3/SDL_main.h /usr/include/SDL3/SDL_main_impl.h \
- /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/src/Vector2.hpp \
+ /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Vector2.hpp \
  /usr/include/c++/16/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
@@ -217,11 +217,14 @@ CMakeFiles/practica03_motor.dir/src/main.cpp.o: \
  /usr/include/c++/16/tr1/poly_hermite.tcc \
  /usr/include/c++/16/tr1/poly_laguerre.tcc \
  /usr/include/c++/16/tr1/riemann_zeta.tcc \
- /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/src/GameObject.hpp \
+ /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/GameObject.hpp \
  /usr/include/c++/16/utility /usr/include/c++/16/bits/stl_relops.h \
  /usr/include/c++/16/bits/intcmp.h \
- /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/src/Component.hpp \
- /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/src/TransformComponent.hpp \
- /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/src/RectRenderComponent.hpp \
- /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/src/PlayerControllerComponent.hpp \
- /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/src/PatrolComponent.hpp
+ /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Component.hpp \
+ /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/TransformComponent.hpp \
+ /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/RectRenderComponent.hpp \
+ /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/PlayerControllerComponent.hpp \
+ /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/PatrolComponent.hpp \
+ /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/CollisionManager.hpp \
+ /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/ColliderComponent.hpp \
+ /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/BallComponent.hpp

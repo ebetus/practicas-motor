@@ -23,6 +23,9 @@ src/GameObject.hpp
 src/TransformComponent.hpp
 src/RectRenderComponent.hpp
 src/PlayerControllerComponent.hpp
+src/ColliderComponent.hpp
+src/CollisionManager.hpp
+src/BallComponent.hpp
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE src)

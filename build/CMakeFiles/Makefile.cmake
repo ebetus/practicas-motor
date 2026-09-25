@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/Practica2/practica02-motor/CMakeLists.txt"
+  "/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/CMakeLists.txt"
   "CMakeFiles/4.4.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.3/CMakeSystem.cmake"
   "/usr/lib/cmake/SDL3/SDL3Config.cmake"
