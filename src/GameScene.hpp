@@ -14,17 +14,25 @@
 #include "BallComponent.hpp"
 #include "SceneManager.hpp"
 
+#include <memory>
+
 class GameScene : public Scene {
 private:
-  CollisionManager m_collisionManager;
+  std::unique_ptr<CollisionManager> m_collisionManager;
   float m_physicsAccumulator{0.0f};
   bool m_debugDraw{false};
 
 public:
 
+  GameScene() = default;
+  
+  explicit GameScene(SceneManager *manager , std::string name) : Scene(manager,name){
+    m_collisionManager = std::make_unique<CollisionManager>(&m_entities);
+  }
+
   void Init() override {
     m_entities.clear();
-    m_collisionManager.SetEntities(&m_entities);
+    m_collisionManager->SetEntities(&m_entities);
     auto player = std::make_unique<GameObject>("Player");
     player->AddComponent<TransformComponent>(Vector2{440.0f, 240.0f},
 					     Vector2{1.0f, 1.0f});
@@ -58,7 +66,7 @@ public:
     while (m_physicsAccumulator >= FIXED_TIMESTEP) {
       for (auto &entity : m_entities)
 	entity->Update(FIXED_TIMESTEP);
-      m_collisionManager.CheckCollisions();
+      m_collisionManager->CheckCollisions();
       m_physicsAccumulator -= FIXED_TIMESTEP;
     }
   }
@@ -71,10 +79,10 @@ public:
       }
       if(event.key.scancode == SDL_SCANCODE_P ||
 	 event.key.scancode == SDL_SCANCODE_ESCAPE) {
-	m_manager->PushScene(std::make_unique<PauseScene>(m_manager));
+	m_manager->PushScene(std::move(std::make_unique<PauseScene>(m_manager , "PauseScene")));
       }
       if(event.key.scancode == SDL_SCANCODE_G) {
-	m_manager->ChangeScene(std::make_unique<GameOverScene>(m_manager));
+	m_manager->ChangeScene(std::move(std::make_unique<GameOverScene>(m_manager , "PauseScene")));
       }
     }
   }

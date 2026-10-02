@@ -6,6 +6,8 @@
 
 
 class PauseScene : public Scene {
+public:
+  explicit PauseScene(SceneManager *manager , std::string name) : Scene(manager,name){}
 
   void HandleEvent(const SDL_Event& event) {
     if(event.type == SDL_EVENT_KEY_DOWN) {

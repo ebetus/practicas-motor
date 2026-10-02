@@ -7,6 +7,7 @@
 
 #include "SceneManager.hpp"
 #include "TitleScene.hpp"
+#include "GameScene.hpp"
 
 void SDL_LogPlatformInfo();
 
@@ -41,7 +42,7 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv) {
   ::appstate.window = window;
   ::appstate.renderer = renderer;
   ::appstate.last_ticks = SDL_GetTicks();
-  ::appstate.sceneManager.ChangeScene(std::make_unique<TitleScene>(&appstate.sceneManager));
+  ::appstate.sceneManager.ChangeScene(std::make_unique<TitleScene>(&::appstate.sceneManager , "TitleScene"));
   ::appstate.sceneManager.ProcessPendingChanges();
   *appstate = &::appstate;
   return SDL_APP_CONTINUE;
@@ -84,7 +85,7 @@ SDL_AppResult SDL_AppEvent(void *appstate, SDL_Event *event)
 void SDL_AppQuit(void *appstate , SDL_AppResult result) {
   AppState *app = static_cast<AppState *>(appstate);
   if (app) {
-    app->entities.clear();
+    app->sceneManager.Clear();
     SDL_DestroyRenderer(app->renderer);
     SDL_DestroyWindow(app->window);
   }

@@ -17,6 +17,10 @@ public:
   //Entidades que pueden tener colliders
   
 
+  void SetEntities(std::vector<std::unique_ptr<GameObject>> *entities) {
+    m_entities = std::move(entities);
+  }
+  
   bool CheckAABB(const SDL_FRect &a , const SDL_FRect &b){
     return (a.x < b.x + b.w &&
 	    a.x + a.w > b.x &&

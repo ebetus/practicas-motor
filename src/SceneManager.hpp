@@ -17,7 +17,9 @@ class SceneManager {
 
 private:
   std::vector<std::unique_ptr<Scene>> m_scenes;
+  
   SceneAction m_pendingAction{SceneAction::None};
+  
   std::unique_ptr<Scene> m_pendingScene{nullptr};
 
   void popSceneFromScenes() {
@@ -95,6 +97,10 @@ public:
     for(auto &scene : m_scenes){
       scene->Render(renderer);
     }
+  }
+
+  bool HasScenes() {
+    return m_scenes.size() != 0;
   }
 
 };
