@@ -7,9 +7,15 @@ CMakeFiles/practica03_motor.dir/src/main.cpp.o: /home/ebetus/Documents/Carrera/Q
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/CollisionManager.hpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Component.hpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/GameObject.hpp \
+  /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/GameOverScene.hpp \
+  /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/GameScene.hpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/PatrolComponent.hpp \
+  /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/PauseScene.hpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/PlayerControllerComponent.hpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/RectRenderComponent.hpp \
+  /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Scene.hpp \
+  /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/SceneManager.hpp \
+  /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/TitleScene.hpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/TransformComponent.hpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Vector2.hpp \
   /usr/include/SDL3/SDL.h \
@@ -478,33 +484,19 @@ practica03_motor: /usr/lib/Scrt1.o \
 
 /usr/include/c++/16/exception:
 
-/usr/include/linux/posix_types.h:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so:
-
-/usr/include/bits/flt-eval-method.h:
-
-/usr/include/bits/types.h:
-
-/usr/include/bits/timex.h:
-
-/usr/include/bits/time64.h:
+/usr/include/c++/16/debug/assertions.h:
 
 /usr/include/bits/stdlib-float.h:
+
+/usr/include/bits/time64.h:
 
 /usr/include/c++/16/pstl/execution_defs.h:
 
 /usr/include/c++/16/bits/allocator.h:
 
-/usr/include/c++/16/cerrno:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o:
 
 /usr/include/bits/stdio_lim.h:
-
-/usr/include/SDL3/SDL_guid.h:
 
 /usr/include/c++/16/limits:
 
@@ -550,6 +542,14 @@ practica03_motor: /usr/lib/Scrt1.o \
 
 /usr/include/c++/16/bits/basic_string.tcc:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so:
+
+/usr/include/bits/flt-eval-method.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/bits/types/FILE.h:
+
 /usr/include/c++/16/tr1/exp_integral.tcc:
 
 /usr/include/bits/floatn-common.h:
@@ -563,6 +563,8 @@ practica03_motor: /usr/lib/Scrt1.o \
 /usr/include/alloca.h:
 
 /usr/include/SDL3/SDL_version.h:
+
+/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/SceneManager.hpp:
 
 /usr/include/SDL3/SDL_time.h:
 
@@ -578,19 +580,33 @@ practica03_motor: /usr/lib/Scrt1.o \
 
 /usr/include/SDL3/SDL_render.h:
 
-/usr/include/bits/waitflags.h:
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h:
 
-/usr/include/bits/endianness.h:
+/usr/include/bits/setjmp.h:
 
-/usr/include/SDL3/SDL_hidapi.h:
+/usr/include/bits/types/struct_itimerspec.h:
 
-/usr/include/SDL3/SDL_gamepad.h:
+/usr/include/SDL3/SDL_scancode.h:
 
-/usr/include/c++/16/bits/stl_function.h:
+/usr/include/SDL3/SDL_power.h:
 
-/usr/include/bits/errno.h:
+/usr/include/c++/16/bits/streambuf.tcc:
 
-/usr/include/c++/16/cstdlib:
+/usr/include/bits/byteswap.h:
+
+/usr/include/SDL3/SDL_mutex.h:
+
+/usr/include/c++/16/bits/requires_hosted.h:
+
+/usr/include/errno.h:
+
+/usr/include/SDL3/SDL_storage.h:
+
+/usr/include/bits/types/struct_tm.h:
+
+/usr/include/c++/16/memory:
+
+/usr/include/SDL3/SDL_platform.h:
 
 /usr/include/SDL3/SDL_cpuinfo.h:
 
@@ -634,33 +650,19 @@ practica03_motor: /usr/lib/Scrt1.o \
 
 /usr/include/c++/16/bits/shared_ptr_atomic.h:
 
-/usr/include/SDL3/SDL_endian.h:
+/usr/include/c++/16/cstdlib:
+
+/usr/include/bits/errno.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/SDL3/SDL_rect.h:
 
 /usr/include/c++/16/bits/atomic_lockfree_defines.h:
 
 /usr/include/SDL3/SDL_audio.h:
 
-/usr/include/SDL3/SDL_surface.h:
-
-/usr/include/c++/16/bits/atomic_base.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/16/bits/atomic_wait.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/16/clocale:
-
-/usr/include/features.h:
-
-/usr/include/bits/types/__FILE.h:
-
-/usr/include/bits/sched.h:
-
-/usr/include/c++/16/bits/memoryfwd.h:
-
-/usr/include/c++/16/bits/stl_construct.h:
+/usr/include/SDL3/SDL_endian.h:
 
 /usr/include/c++/16/bits/max_size_type.h:
 
@@ -668,17 +670,37 @@ practica03_motor: /usr/lib/Scrt1.o \
 
 /usr/include/c++/16/bits/predefined_ops.h:
 
+/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/GameScene.hpp:
+
+/usr/include/c++/16/ext/type_traits.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/SDL3/SDL_assert.h:
+
 /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/main.cpp:
 
-/usr/include/SDL3/SDL_events.h:
+/usr/include/SDL3/SDL_guid.h:
 
-/usr/include/bits/iscanonical.h:
+/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/TitleScene.hpp:
 
-/usr/include/c++/16/bits/ios_base.h:
+/usr/include/bits/math-vector.h:
+
+/usr/include/SDL3/SDL_platform_defines.h:
+
+/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Scene.hpp:
 
 /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/ColliderComponent.hpp:
 
 /usr/include/c++/16/bit:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/endianness.h:
+
+/usr/include/SDL3/SDL_hidapi.h:
+
+/usr/include/SDL3/SDL_gamepad.h:
 
 /usr/include/bits/libc-header-start.h:
 
@@ -686,7 +708,19 @@ practica03_motor: /usr/lib/Scrt1.o \
 
 /usr/include/c++/16/bits/version.h:
 
-/usr/include/SDL3/SDL_rect.h:
+/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Vector2.hpp:
+
+/usr/include/SDL3/SDL_metal.h:
+
+/usr/include/bits/types/timer_t.h:
+
+/usr/include/SDL3/SDL_video.h:
+
+/usr/include/c++/16/bits/ostream_insert.h:
+
+/usr/include/c++/16/cstdio:
+
+/usr/include/SDL3/SDL_sensor.h:
 
 /usr/include/bits/uintn-identity.h:
 
@@ -712,47 +746,39 @@ practica03_motor: /usr/lib/Scrt1.o \
 
 /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Component.hpp:
 
-/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Vector2.hpp:
-
-/usr/include/SDL3/SDL_metal.h:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/SDL3/SDL_video.h:
-
-/usr/include/c++/16/bits/ostream_insert.h:
-
-/usr/include/bits/byteswap.h:
-
-/usr/include/SDL3/SDL_mutex.h:
-
-/usr/include/c++/16/bits/requires_hosted.h:
-
-/usr/include/errno.h:
-
-/usr/include/SDL3/SDL_storage.h:
-
-/usr/include/bits/types/struct_tm.h:
-
-/usr/include/c++/16/memory:
-
-/usr/include/SDL3/SDL_platform.h:
-
 /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/RectRenderComponent.hpp:
 
-/usr/include/c++/16/ext/type_traits.h:
+/usr/include/bits/iscanonical.h:
 
-/usr/include/bits/thread-shared-types.h:
+/usr/include/SDL3/SDL_events.h:
 
-/usr/include/SDL3/SDL_assert.h:
+/usr/include/c++/16/bits/ios_base.h:
 
-/usr/include/bits/timesize.h:
+/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/GameOverScene.hpp:
 
-/usr/include/bits/wchar.h:
+/usr/include/linux/sched/types.h:
 
-/usr/include/bits/types/struct___jmp_buf_tag.h:
+/usr/include/c++/16/cwchar:
 
-/usr/include/bits/waitstatus.h:
+/usr/include/SDL3/SDL_dlopennote.h:
+
+/usr/include/c++/16/bits/stl_function.h:
+
+/usr/include/SDL3/SDL_surface.h:
+
+/usr/include/c++/16/bits/atomic_base.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/c++/16/bits/atomic_wait.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/16/clocale:
+
+/usr/include/c++/16/bits/memoryfwd.h:
+
+/usr/include/c++/16/bits/stl_construct.h:
 
 /usr/include/bits/endian.h:
 
@@ -796,6 +822,8 @@ CMakeFiles/practica03_motor.dir/src/main.cpp.o:
 
 /usr/include/stdlib.h:
 
+/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/PauseScene.hpp:
+
 /usr/include/SDL3/SDL_log.h:
 
 /usr/include/bits/types/struct_FILE.h:
@@ -830,21 +858,23 @@ CMakeFiles/practica03_motor.dir/src/main.cpp.o:
 
 /usr/include/SDL3/SDL_pixels.h:
 
-/usr/include/bits/math-vector.h:
+/usr/include/bits/timesize.h:
 
-/usr/include/SDL3/SDL_platform_defines.h:
+/usr/include/bits/wchar.h:
 
-/usr/include/SDL3/SDL_power.h:
+/usr/include/bits/types/struct___jmp_buf_tag.h:
 
-/usr/include/c++/16/bits/streambuf.tcc:
+/usr/include/bits/waitstatus.h:
 
-/usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h:
+/usr/include/bits/types.h:
 
-/usr/include/bits/setjmp.h:
+/usr/include/features.h:
 
-/usr/include/bits/types/struct_itimerspec.h:
+/usr/include/bits/sched.h:
 
-/usr/include/SDL3/SDL_scancode.h:
+/usr/include/bits/types/__FILE.h:
+
+/usr/include/c++/16/cerrno:
 
 /usr/include/c++/16/string_view:
 
@@ -875,6 +905,12 @@ CMakeFiles/practica03_motor.dir/src/main.cpp.o:
 /usr/include/c++/16/bits/memory_resource.h:
 
 /usr/include/bits/types/struct_sched_param.h:
+
+/usr/include/c++/16/cwctype:
+
+/usr/include/SDL3/SDL_stdinc.h:
+
+/usr/include/c++/16/bits/cxxabi_forced.h:
 
 /usr/include/bits/types/struct_timespec.h:
 
@@ -929,12 +965,6 @@ CMakeFiles/practica03_motor.dir/src/main.cpp.o:
 /usr/include/gnu/stubs.h:
 
 /usr/include/c++/16/bits/std_abs.h:
-
-/usr/include/SDL3/SDL_stdinc.h:
-
-/usr/include/c++/16/bits/cxxabi_forced.h:
-
-/usr/include/c++/16/cwctype:
 
 /usr/include/c++/16/bits/cpp_type_traits.h:
 
@@ -1012,6 +1042,14 @@ CMakeFiles/practica03_motor.dir/src/main.cpp.o:
 
 /usr/include/c++/16/bits/stdexcept_throw.h:
 
+/usr/include/c++/16/debug/debug.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/c++/16/bits/stl_bvector.h:
+
 /usr/include/asm-generic/posix_types.h:
 
 /usr/include/c++/16/bits/uses_allocator.h:
@@ -1063,23 +1101,3 @@ CMakeFiles/practica03_motor.dir/src/main.cpp.o:
 /usr/include/c++/16/concepts:
 
 /usr/include/c++/16/cstddef:
-
-/usr/include/SDL3/SDL_sensor.h:
-
-/usr/include/c++/16/cstdio:
-
-/usr/include/linux/sched/types.h:
-
-/usr/include/SDL3/SDL_dlopennote.h:
-
-/usr/include/c++/16/cwchar:
-
-/usr/include/c++/16/debug/assertions.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/c++/16/bits/stl_bvector.h:
-
-/usr/include/c++/16/debug/debug.h:

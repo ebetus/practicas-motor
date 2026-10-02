@@ -26,6 +26,12 @@ src/PlayerControllerComponent.hpp
 src/ColliderComponent.hpp
 src/CollisionManager.hpp
 src/BallComponent.hpp
+src/Scene.hpp
+src/SceneManager.hpp
+src/TitleScene.hpp
+src/GameScene.hpp
+src/PauseScene.hpp
+src/GameOverScene.hpp
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE src)
