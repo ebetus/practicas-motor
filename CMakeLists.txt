@@ -14,25 +14,47 @@ else()
 set(SDL3_TARGET SDL3::SDL3)
 endif()
 
-# Declaración de ejecutables y fuentes
-add_executable(${PROJECT_NAME}
-src/main.cpp
-src/Vector2.hpp
-src/Component.hpp
-src/GameObject.hpp
-src/TransformComponent.hpp
-src/RectRenderComponent.hpp
-src/PlayerControllerComponent.hpp
-src/ColliderComponent.hpp
-src/CollisionManager.hpp
-src/BallComponent.hpp
-src/Scene.hpp
-src/SceneManager.hpp
-src/TitleScene.hpp
-src/GameScene.hpp
-src/PauseScene.hpp
-src/GameOverScene.hpp
+# Declaración de headers y fuentes
+set(HEADERS
+include/core/Component.hpp
+include/core/GameObject.hpp
+include/core/Scene.hpp
+include/core/SceneManager.hpp
+include/core/Vector2.hpp
+include/components/TransformComponent.hpp
+include/components/BallComponent.hpp
+include/components/ColliderComponent.hpp
+include/components/PatrolComponent.hpp
+include/components/PlayerControllerComponent.hpp
+include/components/RectRenderComponent.hpp
+include/core/CollisionManager.hpp
+include/scenes/GameOverScene.hpp
+include/scenes/GameScene.hpp
+include/scenes/PauseScene.hpp
+include/scenes/TitleScene.hpp
 )
 
-target_include_directories(${PROJECT_NAME} PRIVATE src)
+set(FUENTES
+src/main.cpp
+src/core/CollisionManager.cpp
+src/core/Component.cpp
+src/core/GameObject.cpp
+src/core/Scene.cpp
+src/core/SceneManager.cpp
+src/core/Vector2.cpp
+src/components/TransformComponent.cpp
+src/components/BallComponent.cpp
+src/components/ColliderComponent.cpp
+src/components/PatrolComponent.cpp
+src/components/PlayerControllerComponent.cpp
+src/components/RectRenderComponent.cpp
+src/scenes/GameOverScene.cpp
+src/scenes/GameScene.cpp
+src/scenes/PauseScene.cpp
+src/scenes/TitleScene.cpp
+)
+
+add_executable(${PROJECT_NAME} ${HEADERS} ${FUENTES})
+
+target_include_directories(${PROJECT_NAME} PRIVATE include)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${SDL3_TARGET})

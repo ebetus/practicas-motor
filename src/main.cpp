@@ -5,9 +5,9 @@
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
 
-#include "SceneManager.hpp"
-#include "TitleScene.hpp"
-#include "GameScene.hpp"
+#include "core/SceneManager.hpp"
+#include "scenes/TitleScene.hpp"
+#include "scenes/GameScene.hpp"
 
 void SDL_LogPlatformInfo();
 
@@ -23,7 +23,7 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv) {
     SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Error al inicializar SDL: %s", SDL_GetError());
       return SDL_APP_FAILURE;
   }
-
+ 
   // Sugerir a la plataforma una tasa objetivo de 60 FPS
   SDL_SetHint(SDL_HINT_MAIN_CALLBACK_RATE, "60");
   
@@ -37,14 +37,17 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv) {
     return SDL_APP_FAILURE;
   }
   
+  
   SDL_Log("Renderer Driver activo: %s", SDL_GetRendererName(renderer));
   
   ::appstate.window = window;
   ::appstate.renderer = renderer;
   ::appstate.last_ticks = SDL_GetTicks();
+ 
   ::appstate.sceneManager.ChangeScene(std::make_unique<TitleScene>(&::appstate.sceneManager , "TitleScene"));
   ::appstate.sceneManager.ProcessPendingChanges();
   *appstate = &::appstate;
+  
   return SDL_APP_CONTINUE;
 }
 
