@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/practica06.dir/link.d"
   "CMakeFiles/practica06.dir/src/Engine/Components/ColliderComponent.cpp.o"
   "CMakeFiles/practica06.dir/src/Engine/Components/ColliderComponent.cpp.o.d"
+  "CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o"
+  "CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o.d"
   "CMakeFiles/practica06.dir/src/Engine/Components/RectRenderComponent.cpp.o"
   "CMakeFiles/practica06.dir/src/Engine/Components/RectRenderComponent.cpp.o.d"
   "CMakeFiles/practica06.dir/src/Engine/Components/SpriteComponent.cpp.o"

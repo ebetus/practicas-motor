@@ -153,6 +153,30 @@ src/Engine/Components/ColliderComponent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/ColliderComponent.cpp.s
 .PHONY : src/Engine/Components/ColliderComponent.cpp.s
 
+src/Engine/Components/PlayerControllerComponent.o: src/Engine/Components/PlayerControllerComponent.cpp.o
+.PHONY : src/Engine/Components/PlayerControllerComponent.o
+
+# target to build an object file
+src/Engine/Components/PlayerControllerComponent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o
+.PHONY : src/Engine/Components/PlayerControllerComponent.cpp.o
+
+src/Engine/Components/PlayerControllerComponent.i: src/Engine/Components/PlayerControllerComponent.cpp.i
+.PHONY : src/Engine/Components/PlayerControllerComponent.i
+
+# target to preprocess a source file
+src/Engine/Components/PlayerControllerComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.i
+.PHONY : src/Engine/Components/PlayerControllerComponent.cpp.i
+
+src/Engine/Components/PlayerControllerComponent.s: src/Engine/Components/PlayerControllerComponent.cpp.s
+.PHONY : src/Engine/Components/PlayerControllerComponent.s
+
+# target to generate assembly for a file
+src/Engine/Components/PlayerControllerComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.s
+.PHONY : src/Engine/Components/PlayerControllerComponent.cpp.s
+
 src/Engine/Components/RectRenderComponent.o: src/Engine/Components/RectRenderComponent.cpp.o
 .PHONY : src/Engine/Components/RectRenderComponent.o
 
@@ -429,6 +453,9 @@ help:
 	@echo "... src/Engine/Components/ColliderComponent.o"
 	@echo "... src/Engine/Components/ColliderComponent.i"
 	@echo "... src/Engine/Components/ColliderComponent.s"
+	@echo "... src/Engine/Components/PlayerControllerComponent.o"
+	@echo "... src/Engine/Components/PlayerControllerComponent.i"
+	@echo "... src/Engine/Components/PlayerControllerComponent.s"
 	@echo "... src/Engine/Components/RectRenderComponent.o"
 	@echo "... src/Engine/Components/RectRenderComponent.i"
 	@echo "... src/Engine/Components/RectRenderComponent.s"

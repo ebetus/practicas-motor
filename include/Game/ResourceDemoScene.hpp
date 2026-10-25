@@ -1,20 +1,26 @@
 #pragma once
 
-#include <SDL3/SDL.h>
-#include <memory>
 #include "Engine/Scene.hpp"
-
+#include "Engine/ResourceManager.hpp"
+#include <SDL3/SDL.h>
+#include <string>
 
 class ResourceDemoScene : public Scene {
-
-
 public:
+  ResourceDemoScene(SceneManager* manager, ResourceManager* r , std::string name);
+  ~ResourceDemoScene() override = default;
 
-  ResourceDemoScene() = default;
-
-  explicit ResourceDemoScene(SceneManager *manager , std::string name);
-
+  void Init() override;
+  void Update(float dt) override;
+  void Render(SDL_Renderer* renderer) override;
   void HandleEvent(const SDL_Event& event) override;
 
-  void Render(SDL_Renderer *renderer) override;
+private:
+  void SpawnEnemyRow();
+  void TriggerDeliberateLeak();
+  void PrintMetrics();
+
+  ResourceManager* m_resourceManager;
+  GameObject* m_player{nullptr}; 
+  int m_enemyCount{0};
 };

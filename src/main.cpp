@@ -6,6 +6,7 @@
 #include <SDL3/SDL_main.h>
 
 #include "Engine/SceneManager.hpp"
+#include "Engine/ResourceManager.hpp"
 #include "Game/ResourceDemoScene.hpp"
 
 void SDL_LogPlatformInfo();
@@ -15,6 +16,7 @@ struct AppState {
   SDL_Window *window{nullptr};
   Uint64 last_ticks{0};
   SceneManager sceneManager;
+  ResourceManager resourceManager; //Fue la mejor opcion para no sacar el renderer a otro lado
 } appstate;
 
 SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv) {
@@ -42,8 +44,9 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv) {
   ::appstate.window = window;
   ::appstate.renderer = renderer;
   ::appstate.last_ticks = SDL_GetTicks();
- 
-  ::appstate.sceneManager.ChangeScene(std::make_unique<ResourceDemoScene>(&::appstate.sceneManager , "ResourceDemoScene"));
+
+  ::appstate.resourceManager.SetRenderer(renderer);
+  ::appstate.sceneManager.ChangeScene(std::make_unique<ResourceDemoScene>(&::appstate.sceneManager , &::appstate.resourceManager , "ResourceDemoScene"));
   ::appstate.sceneManager.ProcessPendingChanges();
   *appstate = &::appstate;
   

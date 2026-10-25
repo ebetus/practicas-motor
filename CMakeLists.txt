@@ -48,6 +48,7 @@ add_executable(${PROJECT_NAME}
     src/Engine/Components/RectRenderComponent.cpp
     src/Engine/Components/SpriteComponent.cpp
     src/Engine/Components/ColliderComponent.cpp
+    src/Engine/Components/PlayerControllerComponent.cpp
     src/Physics/CollisionManager.cpp
     src/Game/ResourceDemoScene.cpp
 )

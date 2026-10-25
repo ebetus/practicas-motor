@@ -212,10 +212,24 @@ CMakeFiles/practica06.dir/src/Engine/Components/ColliderComponent.cpp.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/practica06.dir/src/Engine/Components/ColliderComponent.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Engine/Components/ColliderComponent.cpp -o CMakeFiles/practica06.dir/src/Engine/Components/ColliderComponent.cpp.s
 
+CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o: CMakeFiles/practica06.dir/flags.make
+CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o: /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Engine/Components/PlayerControllerComponent.cpp
+CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o: CMakeFiles/practica06.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o -MF CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o.d -o CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o -c /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Engine/Components/PlayerControllerComponent.cpp
+
+CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Engine/Components/PlayerControllerComponent.cpp > CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.i
+
+CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Engine/Components/PlayerControllerComponent.cpp -o CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.s
+
 CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.o: CMakeFiles/practica06.dir/flags.make
 CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.o: /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Physics/CollisionManager.cpp
 CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.o: CMakeFiles/practica06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.o -MF CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.o.d -o CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.o -c /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Physics/CollisionManager.cpp
 
 CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.i: cmake_force
@@ -229,7 +243,7 @@ CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.s: cmake_force
 CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.o: CMakeFiles/practica06.dir/flags.make
 CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.o: /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Game/ResourceDemoScene.cpp
 CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.o: CMakeFiles/practica06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.o -MF CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.o.d -o CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.o -c /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Game/ResourceDemoScene.cpp
 
 CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.i: cmake_force
@@ -252,6 +266,7 @@ practica06_OBJECTS = \
 "CMakeFiles/practica06.dir/src/Engine/Components/RectRenderComponent.cpp.o" \
 "CMakeFiles/practica06.dir/src/Engine/Components/SpriteComponent.cpp.o" \
 "CMakeFiles/practica06.dir/src/Engine/Components/ColliderComponent.cpp.o" \
+"CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o" \
 "CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.o" \
 "CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.o"
 
@@ -268,6 +283,7 @@ practica06: CMakeFiles/practica06.dir/src/Engine/Components/TransformComponent.c
 practica06: CMakeFiles/practica06.dir/src/Engine/Components/RectRenderComponent.cpp.o
 practica06: CMakeFiles/practica06.dir/src/Engine/Components/SpriteComponent.cpp.o
 practica06: CMakeFiles/practica06.dir/src/Engine/Components/ColliderComponent.cpp.o
+practica06: CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o
 practica06: CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.o
 practica06: CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.o
 practica06: CMakeFiles/practica06.dir/build.make
@@ -275,7 +291,7 @@ practica06: CMakeFiles/practica06.dir/compiler_depend.ts
 practica06: /usr/lib/libSDL3_image.so.0.4.8
 practica06: /usr/lib/libSDL3.so.0.4.18
 practica06: CMakeFiles/practica06.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable practica06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable practica06"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/practica06.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

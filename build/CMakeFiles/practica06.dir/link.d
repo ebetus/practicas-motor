@@ -12,6 +12,7 @@ practica06: \
   CMakeFiles/practica06.dir/src/Engine/Components/RectRenderComponent.cpp.o \
   CMakeFiles/practica06.dir/src/Engine/Components/SpriteComponent.cpp.o \
   CMakeFiles/practica06.dir/src/Engine/Components/ColliderComponent.cpp.o \
+  CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o \
   CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.o \
   CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.o \
   /usr/lib/libSDL3_image.so.0.4.8 \
@@ -73,6 +74,8 @@ CMakeFiles/practica06.dir/src/Engine/Components/RectRenderComponent.cpp.o:
 CMakeFiles/practica06.dir/src/Engine/Components/SpriteComponent.cpp.o:
 
 CMakeFiles/practica06.dir/src/Engine/Components/ColliderComponent.cpp.o:
+
+CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o:
 
 CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.o:
 
