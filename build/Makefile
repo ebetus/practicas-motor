@@ -117,312 +117,288 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named practica03_motor
+# Target rules for targets named practica06
 
 # Build rule for target.
-practica03_motor: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 practica03_motor
-.PHONY : practica03_motor
+practica06: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 practica06
+.PHONY : practica06
 
 # fast build rule for target.
-practica03_motor/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/build
-.PHONY : practica03_motor/fast
+practica06/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/build
+.PHONY : practica06/fast
 
-src/components/BallComponent.o: src/components/BallComponent.cpp.o
-.PHONY : src/components/BallComponent.o
-
-# target to build an object file
-src/components/BallComponent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/BallComponent.cpp.o
-.PHONY : src/components/BallComponent.cpp.o
-
-src/components/BallComponent.i: src/components/BallComponent.cpp.i
-.PHONY : src/components/BallComponent.i
-
-# target to preprocess a source file
-src/components/BallComponent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/BallComponent.cpp.i
-.PHONY : src/components/BallComponent.cpp.i
-
-src/components/BallComponent.s: src/components/BallComponent.cpp.s
-.PHONY : src/components/BallComponent.s
-
-# target to generate assembly for a file
-src/components/BallComponent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/BallComponent.cpp.s
-.PHONY : src/components/BallComponent.cpp.s
-
-src/components/ColliderComponent.o: src/components/ColliderComponent.cpp.o
-.PHONY : src/components/ColliderComponent.o
+src/Engine/Components/ColliderComponent.o: src/Engine/Components/ColliderComponent.cpp.o
+.PHONY : src/Engine/Components/ColliderComponent.o
 
 # target to build an object file
-src/components/ColliderComponent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/ColliderComponent.cpp.o
-.PHONY : src/components/ColliderComponent.cpp.o
+src/Engine/Components/ColliderComponent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/ColliderComponent.cpp.o
+.PHONY : src/Engine/Components/ColliderComponent.cpp.o
 
-src/components/ColliderComponent.i: src/components/ColliderComponent.cpp.i
-.PHONY : src/components/ColliderComponent.i
+src/Engine/Components/ColliderComponent.i: src/Engine/Components/ColliderComponent.cpp.i
+.PHONY : src/Engine/Components/ColliderComponent.i
 
 # target to preprocess a source file
-src/components/ColliderComponent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/ColliderComponent.cpp.i
-.PHONY : src/components/ColliderComponent.cpp.i
+src/Engine/Components/ColliderComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/ColliderComponent.cpp.i
+.PHONY : src/Engine/Components/ColliderComponent.cpp.i
 
-src/components/ColliderComponent.s: src/components/ColliderComponent.cpp.s
-.PHONY : src/components/ColliderComponent.s
+src/Engine/Components/ColliderComponent.s: src/Engine/Components/ColliderComponent.cpp.s
+.PHONY : src/Engine/Components/ColliderComponent.s
 
 # target to generate assembly for a file
-src/components/ColliderComponent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/ColliderComponent.cpp.s
-.PHONY : src/components/ColliderComponent.cpp.s
+src/Engine/Components/ColliderComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/ColliderComponent.cpp.s
+.PHONY : src/Engine/Components/ColliderComponent.cpp.s
 
-src/components/PatrolComponent.o: src/components/PatrolComponent.cpp.o
-.PHONY : src/components/PatrolComponent.o
+src/Engine/Components/RectRenderComponent.o: src/Engine/Components/RectRenderComponent.cpp.o
+.PHONY : src/Engine/Components/RectRenderComponent.o
 
 # target to build an object file
-src/components/PatrolComponent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/PatrolComponent.cpp.o
-.PHONY : src/components/PatrolComponent.cpp.o
+src/Engine/Components/RectRenderComponent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/RectRenderComponent.cpp.o
+.PHONY : src/Engine/Components/RectRenderComponent.cpp.o
 
-src/components/PatrolComponent.i: src/components/PatrolComponent.cpp.i
-.PHONY : src/components/PatrolComponent.i
+src/Engine/Components/RectRenderComponent.i: src/Engine/Components/RectRenderComponent.cpp.i
+.PHONY : src/Engine/Components/RectRenderComponent.i
 
 # target to preprocess a source file
-src/components/PatrolComponent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/PatrolComponent.cpp.i
-.PHONY : src/components/PatrolComponent.cpp.i
+src/Engine/Components/RectRenderComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/RectRenderComponent.cpp.i
+.PHONY : src/Engine/Components/RectRenderComponent.cpp.i
 
-src/components/PatrolComponent.s: src/components/PatrolComponent.cpp.s
-.PHONY : src/components/PatrolComponent.s
+src/Engine/Components/RectRenderComponent.s: src/Engine/Components/RectRenderComponent.cpp.s
+.PHONY : src/Engine/Components/RectRenderComponent.s
 
 # target to generate assembly for a file
-src/components/PatrolComponent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/PatrolComponent.cpp.s
-.PHONY : src/components/PatrolComponent.cpp.s
+src/Engine/Components/RectRenderComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/RectRenderComponent.cpp.s
+.PHONY : src/Engine/Components/RectRenderComponent.cpp.s
 
-src/components/PlayerControllerComponent.o: src/components/PlayerControllerComponent.cpp.o
-.PHONY : src/components/PlayerControllerComponent.o
+src/Engine/Components/SpriteComponent.o: src/Engine/Components/SpriteComponent.cpp.o
+.PHONY : src/Engine/Components/SpriteComponent.o
 
 # target to build an object file
-src/components/PlayerControllerComponent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/PlayerControllerComponent.cpp.o
-.PHONY : src/components/PlayerControllerComponent.cpp.o
+src/Engine/Components/SpriteComponent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/SpriteComponent.cpp.o
+.PHONY : src/Engine/Components/SpriteComponent.cpp.o
 
-src/components/PlayerControllerComponent.i: src/components/PlayerControllerComponent.cpp.i
-.PHONY : src/components/PlayerControllerComponent.i
+src/Engine/Components/SpriteComponent.i: src/Engine/Components/SpriteComponent.cpp.i
+.PHONY : src/Engine/Components/SpriteComponent.i
 
 # target to preprocess a source file
-src/components/PlayerControllerComponent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/PlayerControllerComponent.cpp.i
-.PHONY : src/components/PlayerControllerComponent.cpp.i
+src/Engine/Components/SpriteComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/SpriteComponent.cpp.i
+.PHONY : src/Engine/Components/SpriteComponent.cpp.i
 
-src/components/PlayerControllerComponent.s: src/components/PlayerControllerComponent.cpp.s
-.PHONY : src/components/PlayerControllerComponent.s
+src/Engine/Components/SpriteComponent.s: src/Engine/Components/SpriteComponent.cpp.s
+.PHONY : src/Engine/Components/SpriteComponent.s
 
 # target to generate assembly for a file
-src/components/PlayerControllerComponent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/PlayerControllerComponent.cpp.s
-.PHONY : src/components/PlayerControllerComponent.cpp.s
+src/Engine/Components/SpriteComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/SpriteComponent.cpp.s
+.PHONY : src/Engine/Components/SpriteComponent.cpp.s
 
-src/components/RectRenderComponent.o: src/components/RectRenderComponent.cpp.o
-.PHONY : src/components/RectRenderComponent.o
+src/Engine/Components/TransformComponent.o: src/Engine/Components/TransformComponent.cpp.o
+.PHONY : src/Engine/Components/TransformComponent.o
 
 # target to build an object file
-src/components/RectRenderComponent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/RectRenderComponent.cpp.o
-.PHONY : src/components/RectRenderComponent.cpp.o
+src/Engine/Components/TransformComponent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/TransformComponent.cpp.o
+.PHONY : src/Engine/Components/TransformComponent.cpp.o
 
-src/components/RectRenderComponent.i: src/components/RectRenderComponent.cpp.i
-.PHONY : src/components/RectRenderComponent.i
+src/Engine/Components/TransformComponent.i: src/Engine/Components/TransformComponent.cpp.i
+.PHONY : src/Engine/Components/TransformComponent.i
 
 # target to preprocess a source file
-src/components/RectRenderComponent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/RectRenderComponent.cpp.i
-.PHONY : src/components/RectRenderComponent.cpp.i
+src/Engine/Components/TransformComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/TransformComponent.cpp.i
+.PHONY : src/Engine/Components/TransformComponent.cpp.i
 
-src/components/RectRenderComponent.s: src/components/RectRenderComponent.cpp.s
-.PHONY : src/components/RectRenderComponent.s
+src/Engine/Components/TransformComponent.s: src/Engine/Components/TransformComponent.cpp.s
+.PHONY : src/Engine/Components/TransformComponent.s
 
 # target to generate assembly for a file
-src/components/RectRenderComponent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/RectRenderComponent.cpp.s
-.PHONY : src/components/RectRenderComponent.cpp.s
+src/Engine/Components/TransformComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Components/TransformComponent.cpp.s
+.PHONY : src/Engine/Components/TransformComponent.cpp.s
 
-src/components/TransformComponent.o: src/components/TransformComponent.cpp.o
-.PHONY : src/components/TransformComponent.o
+src/Engine/GameObject.o: src/Engine/GameObject.cpp.o
+.PHONY : src/Engine/GameObject.o
 
 # target to build an object file
-src/components/TransformComponent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/TransformComponent.cpp.o
-.PHONY : src/components/TransformComponent.cpp.o
+src/Engine/GameObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/GameObject.cpp.o
+.PHONY : src/Engine/GameObject.cpp.o
 
-src/components/TransformComponent.i: src/components/TransformComponent.cpp.i
-.PHONY : src/components/TransformComponent.i
+src/Engine/GameObject.i: src/Engine/GameObject.cpp.i
+.PHONY : src/Engine/GameObject.i
 
 # target to preprocess a source file
-src/components/TransformComponent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/TransformComponent.cpp.i
-.PHONY : src/components/TransformComponent.cpp.i
+src/Engine/GameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/GameObject.cpp.i
+.PHONY : src/Engine/GameObject.cpp.i
 
-src/components/TransformComponent.s: src/components/TransformComponent.cpp.s
-.PHONY : src/components/TransformComponent.s
+src/Engine/GameObject.s: src/Engine/GameObject.cpp.s
+.PHONY : src/Engine/GameObject.s
 
 # target to generate assembly for a file
-src/components/TransformComponent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/components/TransformComponent.cpp.s
-.PHONY : src/components/TransformComponent.cpp.s
+src/Engine/GameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/GameObject.cpp.s
+.PHONY : src/Engine/GameObject.cpp.s
 
-src/core/CollisionManager.o: src/core/CollisionManager.cpp.o
-.PHONY : src/core/CollisionManager.o
+src/Engine/ResourceManager.o: src/Engine/ResourceManager.cpp.o
+.PHONY : src/Engine/ResourceManager.o
 
 # target to build an object file
-src/core/CollisionManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/CollisionManager.cpp.o
-.PHONY : src/core/CollisionManager.cpp.o
+src/Engine/ResourceManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/ResourceManager.cpp.o
+.PHONY : src/Engine/ResourceManager.cpp.o
 
-src/core/CollisionManager.i: src/core/CollisionManager.cpp.i
-.PHONY : src/core/CollisionManager.i
+src/Engine/ResourceManager.i: src/Engine/ResourceManager.cpp.i
+.PHONY : src/Engine/ResourceManager.i
 
 # target to preprocess a source file
-src/core/CollisionManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/CollisionManager.cpp.i
-.PHONY : src/core/CollisionManager.cpp.i
+src/Engine/ResourceManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/ResourceManager.cpp.i
+.PHONY : src/Engine/ResourceManager.cpp.i
 
-src/core/CollisionManager.s: src/core/CollisionManager.cpp.s
-.PHONY : src/core/CollisionManager.s
+src/Engine/ResourceManager.s: src/Engine/ResourceManager.cpp.s
+.PHONY : src/Engine/ResourceManager.s
 
 # target to generate assembly for a file
-src/core/CollisionManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/CollisionManager.cpp.s
-.PHONY : src/core/CollisionManager.cpp.s
+src/Engine/ResourceManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/ResourceManager.cpp.s
+.PHONY : src/Engine/ResourceManager.cpp.s
 
-src/core/Component.o: src/core/Component.cpp.o
-.PHONY : src/core/Component.o
+src/Engine/Scene.o: src/Engine/Scene.cpp.o
+.PHONY : src/Engine/Scene.o
 
 # target to build an object file
-src/core/Component.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/Component.cpp.o
-.PHONY : src/core/Component.cpp.o
+src/Engine/Scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Scene.cpp.o
+.PHONY : src/Engine/Scene.cpp.o
 
-src/core/Component.i: src/core/Component.cpp.i
-.PHONY : src/core/Component.i
+src/Engine/Scene.i: src/Engine/Scene.cpp.i
+.PHONY : src/Engine/Scene.i
 
 # target to preprocess a source file
-src/core/Component.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/Component.cpp.i
-.PHONY : src/core/Component.cpp.i
+src/Engine/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Scene.cpp.i
+.PHONY : src/Engine/Scene.cpp.i
 
-src/core/Component.s: src/core/Component.cpp.s
-.PHONY : src/core/Component.s
+src/Engine/Scene.s: src/Engine/Scene.cpp.s
+.PHONY : src/Engine/Scene.s
 
 # target to generate assembly for a file
-src/core/Component.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/Component.cpp.s
-.PHONY : src/core/Component.cpp.s
+src/Engine/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/Scene.cpp.s
+.PHONY : src/Engine/Scene.cpp.s
 
-src/core/GameObject.o: src/core/GameObject.cpp.o
-.PHONY : src/core/GameObject.o
+src/Engine/SceneManager.o: src/Engine/SceneManager.cpp.o
+.PHONY : src/Engine/SceneManager.o
 
 # target to build an object file
-src/core/GameObject.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/GameObject.cpp.o
-.PHONY : src/core/GameObject.cpp.o
+src/Engine/SceneManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/SceneManager.cpp.o
+.PHONY : src/Engine/SceneManager.cpp.o
 
-src/core/GameObject.i: src/core/GameObject.cpp.i
-.PHONY : src/core/GameObject.i
+src/Engine/SceneManager.i: src/Engine/SceneManager.cpp.i
+.PHONY : src/Engine/SceneManager.i
 
 # target to preprocess a source file
-src/core/GameObject.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/GameObject.cpp.i
-.PHONY : src/core/GameObject.cpp.i
+src/Engine/SceneManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/SceneManager.cpp.i
+.PHONY : src/Engine/SceneManager.cpp.i
 
-src/core/GameObject.s: src/core/GameObject.cpp.s
-.PHONY : src/core/GameObject.s
+src/Engine/SceneManager.s: src/Engine/SceneManager.cpp.s
+.PHONY : src/Engine/SceneManager.s
 
 # target to generate assembly for a file
-src/core/GameObject.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/GameObject.cpp.s
-.PHONY : src/core/GameObject.cpp.s
+src/Engine/SceneManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Engine/SceneManager.cpp.s
+.PHONY : src/Engine/SceneManager.cpp.s
 
-src/core/Scene.o: src/core/Scene.cpp.o
-.PHONY : src/core/Scene.o
+src/Game/ResourceDemoScene.o: src/Game/ResourceDemoScene.cpp.o
+.PHONY : src/Game/ResourceDemoScene.o
 
 # target to build an object file
-src/core/Scene.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/Scene.cpp.o
-.PHONY : src/core/Scene.cpp.o
+src/Game/ResourceDemoScene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.o
+.PHONY : src/Game/ResourceDemoScene.cpp.o
 
-src/core/Scene.i: src/core/Scene.cpp.i
-.PHONY : src/core/Scene.i
+src/Game/ResourceDemoScene.i: src/Game/ResourceDemoScene.cpp.i
+.PHONY : src/Game/ResourceDemoScene.i
 
 # target to preprocess a source file
-src/core/Scene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/Scene.cpp.i
-.PHONY : src/core/Scene.cpp.i
+src/Game/ResourceDemoScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.i
+.PHONY : src/Game/ResourceDemoScene.cpp.i
 
-src/core/Scene.s: src/core/Scene.cpp.s
-.PHONY : src/core/Scene.s
+src/Game/ResourceDemoScene.s: src/Game/ResourceDemoScene.cpp.s
+.PHONY : src/Game/ResourceDemoScene.s
 
 # target to generate assembly for a file
-src/core/Scene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/Scene.cpp.s
-.PHONY : src/core/Scene.cpp.s
+src/Game/ResourceDemoScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Game/ResourceDemoScene.cpp.s
+.PHONY : src/Game/ResourceDemoScene.cpp.s
 
-src/core/SceneManager.o: src/core/SceneManager.cpp.o
-.PHONY : src/core/SceneManager.o
+src/Math/Vector2.o: src/Math/Vector2.cpp.o
+.PHONY : src/Math/Vector2.o
 
 # target to build an object file
-src/core/SceneManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/SceneManager.cpp.o
-.PHONY : src/core/SceneManager.cpp.o
+src/Math/Vector2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Math/Vector2.cpp.o
+.PHONY : src/Math/Vector2.cpp.o
 
-src/core/SceneManager.i: src/core/SceneManager.cpp.i
-.PHONY : src/core/SceneManager.i
+src/Math/Vector2.i: src/Math/Vector2.cpp.i
+.PHONY : src/Math/Vector2.i
 
 # target to preprocess a source file
-src/core/SceneManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/SceneManager.cpp.i
-.PHONY : src/core/SceneManager.cpp.i
+src/Math/Vector2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Math/Vector2.cpp.i
+.PHONY : src/Math/Vector2.cpp.i
 
-src/core/SceneManager.s: src/core/SceneManager.cpp.s
-.PHONY : src/core/SceneManager.s
+src/Math/Vector2.s: src/Math/Vector2.cpp.s
+.PHONY : src/Math/Vector2.s
 
 # target to generate assembly for a file
-src/core/SceneManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/SceneManager.cpp.s
-.PHONY : src/core/SceneManager.cpp.s
+src/Math/Vector2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Math/Vector2.cpp.s
+.PHONY : src/Math/Vector2.cpp.s
 
-src/core/Vector2.o: src/core/Vector2.cpp.o
-.PHONY : src/core/Vector2.o
+src/Physics/CollisionManager.o: src/Physics/CollisionManager.cpp.o
+.PHONY : src/Physics/CollisionManager.o
 
 # target to build an object file
-src/core/Vector2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/Vector2.cpp.o
-.PHONY : src/core/Vector2.cpp.o
+src/Physics/CollisionManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.o
+.PHONY : src/Physics/CollisionManager.cpp.o
 
-src/core/Vector2.i: src/core/Vector2.cpp.i
-.PHONY : src/core/Vector2.i
+src/Physics/CollisionManager.i: src/Physics/CollisionManager.cpp.i
+.PHONY : src/Physics/CollisionManager.i
 
 # target to preprocess a source file
-src/core/Vector2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/Vector2.cpp.i
-.PHONY : src/core/Vector2.cpp.i
+src/Physics/CollisionManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.i
+.PHONY : src/Physics/CollisionManager.cpp.i
 
-src/core/Vector2.s: src/core/Vector2.cpp.s
-.PHONY : src/core/Vector2.s
+src/Physics/CollisionManager.s: src/Physics/CollisionManager.cpp.s
+.PHONY : src/Physics/CollisionManager.s
 
 # target to generate assembly for a file
-src/core/Vector2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/core/Vector2.cpp.s
-.PHONY : src/core/Vector2.cpp.s
+src/Physics/CollisionManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/Physics/CollisionManager.cpp.s
+.PHONY : src/Physics/CollisionManager.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -430,7 +406,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -438,104 +414,8 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/scenes/GameOverScene.o: src/scenes/GameOverScene.cpp.o
-.PHONY : src/scenes/GameOverScene.o
-
-# target to build an object file
-src/scenes/GameOverScene.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/scenes/GameOverScene.cpp.o
-.PHONY : src/scenes/GameOverScene.cpp.o
-
-src/scenes/GameOverScene.i: src/scenes/GameOverScene.cpp.i
-.PHONY : src/scenes/GameOverScene.i
-
-# target to preprocess a source file
-src/scenes/GameOverScene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/scenes/GameOverScene.cpp.i
-.PHONY : src/scenes/GameOverScene.cpp.i
-
-src/scenes/GameOverScene.s: src/scenes/GameOverScene.cpp.s
-.PHONY : src/scenes/GameOverScene.s
-
-# target to generate assembly for a file
-src/scenes/GameOverScene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/scenes/GameOverScene.cpp.s
-.PHONY : src/scenes/GameOverScene.cpp.s
-
-src/scenes/GameScene.o: src/scenes/GameScene.cpp.o
-.PHONY : src/scenes/GameScene.o
-
-# target to build an object file
-src/scenes/GameScene.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/scenes/GameScene.cpp.o
-.PHONY : src/scenes/GameScene.cpp.o
-
-src/scenes/GameScene.i: src/scenes/GameScene.cpp.i
-.PHONY : src/scenes/GameScene.i
-
-# target to preprocess a source file
-src/scenes/GameScene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/scenes/GameScene.cpp.i
-.PHONY : src/scenes/GameScene.cpp.i
-
-src/scenes/GameScene.s: src/scenes/GameScene.cpp.s
-.PHONY : src/scenes/GameScene.s
-
-# target to generate assembly for a file
-src/scenes/GameScene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/scenes/GameScene.cpp.s
-.PHONY : src/scenes/GameScene.cpp.s
-
-src/scenes/PauseScene.o: src/scenes/PauseScene.cpp.o
-.PHONY : src/scenes/PauseScene.o
-
-# target to build an object file
-src/scenes/PauseScene.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/scenes/PauseScene.cpp.o
-.PHONY : src/scenes/PauseScene.cpp.o
-
-src/scenes/PauseScene.i: src/scenes/PauseScene.cpp.i
-.PHONY : src/scenes/PauseScene.i
-
-# target to preprocess a source file
-src/scenes/PauseScene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/scenes/PauseScene.cpp.i
-.PHONY : src/scenes/PauseScene.cpp.i
-
-src/scenes/PauseScene.s: src/scenes/PauseScene.cpp.s
-.PHONY : src/scenes/PauseScene.s
-
-# target to generate assembly for a file
-src/scenes/PauseScene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/scenes/PauseScene.cpp.s
-.PHONY : src/scenes/PauseScene.cpp.s
-
-src/scenes/TitleScene.o: src/scenes/TitleScene.cpp.o
-.PHONY : src/scenes/TitleScene.o
-
-# target to build an object file
-src/scenes/TitleScene.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/scenes/TitleScene.cpp.o
-.PHONY : src/scenes/TitleScene.cpp.o
-
-src/scenes/TitleScene.i: src/scenes/TitleScene.cpp.i
-.PHONY : src/scenes/TitleScene.i
-
-# target to preprocess a source file
-src/scenes/TitleScene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/scenes/TitleScene.cpp.i
-.PHONY : src/scenes/TitleScene.cpp.i
-
-src/scenes/TitleScene.s: src/scenes/TitleScene.cpp.s
-.PHONY : src/scenes/TitleScene.s
-
-# target to generate assembly for a file
-src/scenes/TitleScene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/src/scenes/TitleScene.cpp.s
-.PHONY : src/scenes/TitleScene.cpp.s
 
 # Help Target
 help:
@@ -545,58 +425,43 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... practica03_motor"
-	@echo "... src/components/BallComponent.o"
-	@echo "... src/components/BallComponent.i"
-	@echo "... src/components/BallComponent.s"
-	@echo "... src/components/ColliderComponent.o"
-	@echo "... src/components/ColliderComponent.i"
-	@echo "... src/components/ColliderComponent.s"
-	@echo "... src/components/PatrolComponent.o"
-	@echo "... src/components/PatrolComponent.i"
-	@echo "... src/components/PatrolComponent.s"
-	@echo "... src/components/PlayerControllerComponent.o"
-	@echo "... src/components/PlayerControllerComponent.i"
-	@echo "... src/components/PlayerControllerComponent.s"
-	@echo "... src/components/RectRenderComponent.o"
-	@echo "... src/components/RectRenderComponent.i"
-	@echo "... src/components/RectRenderComponent.s"
-	@echo "... src/components/TransformComponent.o"
-	@echo "... src/components/TransformComponent.i"
-	@echo "... src/components/TransformComponent.s"
-	@echo "... src/core/CollisionManager.o"
-	@echo "... src/core/CollisionManager.i"
-	@echo "... src/core/CollisionManager.s"
-	@echo "... src/core/Component.o"
-	@echo "... src/core/Component.i"
-	@echo "... src/core/Component.s"
-	@echo "... src/core/GameObject.o"
-	@echo "... src/core/GameObject.i"
-	@echo "... src/core/GameObject.s"
-	@echo "... src/core/Scene.o"
-	@echo "... src/core/Scene.i"
-	@echo "... src/core/Scene.s"
-	@echo "... src/core/SceneManager.o"
-	@echo "... src/core/SceneManager.i"
-	@echo "... src/core/SceneManager.s"
-	@echo "... src/core/Vector2.o"
-	@echo "... src/core/Vector2.i"
-	@echo "... src/core/Vector2.s"
+	@echo "... practica06"
+	@echo "... src/Engine/Components/ColliderComponent.o"
+	@echo "... src/Engine/Components/ColliderComponent.i"
+	@echo "... src/Engine/Components/ColliderComponent.s"
+	@echo "... src/Engine/Components/RectRenderComponent.o"
+	@echo "... src/Engine/Components/RectRenderComponent.i"
+	@echo "... src/Engine/Components/RectRenderComponent.s"
+	@echo "... src/Engine/Components/SpriteComponent.o"
+	@echo "... src/Engine/Components/SpriteComponent.i"
+	@echo "... src/Engine/Components/SpriteComponent.s"
+	@echo "... src/Engine/Components/TransformComponent.o"
+	@echo "... src/Engine/Components/TransformComponent.i"
+	@echo "... src/Engine/Components/TransformComponent.s"
+	@echo "... src/Engine/GameObject.o"
+	@echo "... src/Engine/GameObject.i"
+	@echo "... src/Engine/GameObject.s"
+	@echo "... src/Engine/ResourceManager.o"
+	@echo "... src/Engine/ResourceManager.i"
+	@echo "... src/Engine/ResourceManager.s"
+	@echo "... src/Engine/Scene.o"
+	@echo "... src/Engine/Scene.i"
+	@echo "... src/Engine/Scene.s"
+	@echo "... src/Engine/SceneManager.o"
+	@echo "... src/Engine/SceneManager.i"
+	@echo "... src/Engine/SceneManager.s"
+	@echo "... src/Game/ResourceDemoScene.o"
+	@echo "... src/Game/ResourceDemoScene.i"
+	@echo "... src/Game/ResourceDemoScene.s"
+	@echo "... src/Math/Vector2.o"
+	@echo "... src/Math/Vector2.i"
+	@echo "... src/Math/Vector2.s"
+	@echo "... src/Physics/CollisionManager.o"
+	@echo "... src/Physics/CollisionManager.i"
+	@echo "... src/Physics/CollisionManager.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/scenes/GameOverScene.o"
-	@echo "... src/scenes/GameOverScene.i"
-	@echo "... src/scenes/GameOverScene.s"
-	@echo "... src/scenes/GameScene.o"
-	@echo "... src/scenes/GameScene.i"
-	@echo "... src/scenes/GameScene.s"
-	@echo "... src/scenes/PauseScene.o"
-	@echo "... src/scenes/PauseScene.i"
-	@echo "... src/scenes/PauseScene.s"
-	@echo "... src/scenes/TitleScene.o"
-	@echo "... src/scenes/TitleScene.i"
-	@echo "... src/scenes/TitleScene.s"
 .PHONY : help
 
 

@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuego
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/practica03_motor.dir/all
+all: CMakeFiles/practica06.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/practica03_motor.dir/codegen
+codegen: CMakeFiles/practica06.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/practica03_motor.dir/clean
+clean: CMakeFiles/practica06.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/practica03_motor.dir
+# Target rules for target CMakeFiles/practica06.dir
 
 # All Build rule for target.
-CMakeFiles/practica03_motor.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target practica03_motor"
-.PHONY : CMakeFiles/practica03_motor.dir/all
+CMakeFiles/practica06.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target practica06"
+.PHONY : CMakeFiles/practica06.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/practica03_motor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/CMakeFiles 18
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/practica03_motor.dir/all
+CMakeFiles/practica06.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/CMakeFiles 13
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/practica06.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/CMakeFiles 0
-.PHONY : CMakeFiles/practica03_motor.dir/rule
+.PHONY : CMakeFiles/practica06.dir/rule
 
 # Convenience name for target.
-practica03_motor: CMakeFiles/practica03_motor.dir/rule
-.PHONY : practica03_motor
+practica06: CMakeFiles/practica06.dir/rule
+.PHONY : practica06
 
 # codegen rule for target.
-CMakeFiles/practica03_motor.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Finished codegen for target practica03_motor"
-.PHONY : CMakeFiles/practica03_motor.dir/codegen
+CMakeFiles/practica06.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Finished codegen for target practica06"
+.PHONY : CMakeFiles/practica06.dir/codegen
 
 # clean rule for target.
-CMakeFiles/practica03_motor.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica03_motor.dir/build.make CMakeFiles/practica03_motor.dir/clean
-.PHONY : CMakeFiles/practica03_motor.dir/clean
+CMakeFiles/practica06.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/practica06.dir/build.make CMakeFiles/practica06.dir/clean
+.PHONY : CMakeFiles/practica06.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

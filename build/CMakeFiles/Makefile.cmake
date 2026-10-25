@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/CMakeLists.txt"
-  "CMakeFiles/4.4.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.4.3/CMakeSystem.cmake"
+  "CMakeFiles/4.4.4/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeSystem.cmake"
   "/usr/lib/cmake/SDL3/SDL3Config.cmake"
   "/usr/lib/cmake/SDL3/SDL3ConfigVersion.cmake"
   "/usr/lib/cmake/SDL3/SDL3headersTargets.cmake"
@@ -17,6 +17,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/lib/cmake/SDL3/SDL3sharedTargets.cmake"
   "/usr/lib/cmake/SDL3/SDL3testTargets-none.cmake"
   "/usr/lib/cmake/SDL3/SDL3testTargets.cmake"
+  "/usr/lib/cmake/SDL3_image/SDL3_image-shared-targets-none.cmake"
+  "/usr/lib/cmake/SDL3_image/SDL3_image-shared-targets.cmake"
+  "/usr/lib/cmake/SDL3_image/SDL3_imageConfig.cmake"
+  "/usr/lib/cmake/SDL3_image/SDL3_imageConfigVersion.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake/Modules/CMakeGenericSystem.cmake"
@@ -58,5 +62,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/practica03_motor.dir/DependInfo.cmake"
+  "CMakeFiles/practica06.dir/DependInfo.cmake"
   )
