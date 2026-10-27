@@ -200,4 +200,12 @@ CMakeFiles/practica06.dir/src/Engine/SceneManager.cpp.o: \
  /usr/include/c++/16/pstl/glue_memory_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h /usr/include/c++/16/utility \
  /usr/include/c++/16/bits/stl_relops.h /usr/include/c++/16/bits/intcmp.h \
- /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/include/Engine/Component.hpp
+ /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/include/Engine/Component.hpp \
+ /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/include/Engine/ResourceManager.hpp \
+ /usr/include/c++/16/unordered_map \
+ /usr/include/c++/16/bits/unordered_map.h \
+ /usr/include/c++/16/bits/hashtable.h \
+ /usr/include/c++/16/bits/hashtable_policy.h \
+ /usr/include/c++/16/bits/enable_special_members.h \
+ /usr/include/c++/16/bits/node_handle.h \
+ /usr/include/SDL3_image/SDL_image.h

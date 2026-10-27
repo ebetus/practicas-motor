@@ -4,12 +4,17 @@
 #include <vector>
 #include <string>
 #include "Engine/GameObject.hpp"
+#include "Engine/ResourceManager.hpp"
 
 class SceneManager;
 
 class Scene {
 protected:
+  
   SceneManager *m_manager{nullptr};
+
+  //Las escenas solo lo tendrán si necesita recursos. La mayoría en este caso.
+  ResourceManager *m_resourceManager{nullptr};
 
   std::vector<std::unique_ptr<GameObject>> m_entities;
 
@@ -20,6 +25,8 @@ public:
   Scene() = default;
 
   explicit Scene(SceneManager *manager , std::string name);
+
+  explicit Scene(SceneManager *manager , ResourceManager *resourceManager , std::string name);
 
   virtual ~Scene() = default;
 

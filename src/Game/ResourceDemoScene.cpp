@@ -7,9 +7,11 @@
 #include <SDL3_image/SDL_image.h>
 #include <iostream>
 
-ResourceDemoScene::ResourceDemoScene(SceneManager* manager, ResourceManager* r , std::string name) 
-  : Scene(manager, name) , m_resourceManager(r) {
-}
+ResourceDemoScene::ResourceDemoScene(SceneManager* manager,
+				     ResourceManager* resourceManager ,
+				     std::string name) : Scene(manager,
+							       resourceManager,
+							       name){}
 
 void ResourceDemoScene::Init() {
   m_entities.clear();
@@ -34,7 +36,7 @@ void ResourceDemoScene::Init() {
     SpawnEnemyRow();
   }
 
-  std::cout << "[ResourceDemoScene] Escena inicializada con éxito.\n";
+  SDL_Log("[ResourceDemoScene] Escena inicializada con éxito.\n");
   PrintMetrics();
 }
 
@@ -54,12 +56,12 @@ void ResourceDemoScene::SpawnEnemyRow() {
 }
 
 void ResourceDemoScene::PrintMetrics() {
-  std::cout << "[Flyweight Metric] Entidades en escena: " << m_entities.size() << "\n";
-  std::cout << "[Flyweight Metric] Texturas en VRAM: " << m_resourceManager->GetTextureCount() << " (esperado: 3)\n";
+  SDL_Log("[Flyweight Metric] Entidades en escena:%d\n",m_entities.size());
+  SDL_Log("[Flyweight Metric] Texturas en VRAM: %d (esperado: 3)\n" , m_resourceManager->GetTextureCount());
 }
 
 void ResourceDemoScene::TriggerDeliberateLeak() {
-  std::cout << "[Deliberate Leak] Cargando 50 SDL_Surface sin liberar...\n";
+  SDL_Log("[Deliberate Leak] Cargando 50 SDL_Surface sin liberar...\n");
 
   for(int i = 0; i < 50; i++) {
     SDL_Surface* surface = IMG_Load("assets/enemy.png");
@@ -104,7 +106,7 @@ void ResourceDemoScene::HandleEvent(const SDL_Event& event) {
       // Vaciado explícito de caché
     case SDL_SCANCODE_C:
       m_resourceManager->Clear(); 
-      std::cout << "[ResourceDemoScene] Caché limpiada explícitamente.\n";
+      SDL_Log("[ResourceDemoScene] Caché limpiada explícitamente.\n");
       break;
             
       // Provocar la fuga de memoria para ASan
@@ -114,11 +116,16 @@ void ResourceDemoScene::HandleEvent(const SDL_Event& event) {
 
       // Salir de la escena o cerrar programa
     case SDL_SCANCODE_ESCAPE:
-      m_manager->PopScene();
+      Exit();
       break;
 
     default:
       break;
     }
   }
+}
+
+void ResourceDemoScene::Exit(){
+  SDL_Log("Adios");
+  m_manager->Quit();
 }

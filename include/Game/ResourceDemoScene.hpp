@@ -14,13 +14,12 @@ public:
   void Update(float dt) override;
   void Render(SDL_Renderer* renderer) override;
   void HandleEvent(const SDL_Event& event) override;
+  void Exit() override;
 
 private:
   void SpawnEnemyRow();
   void TriggerDeliberateLeak();
   void PrintMetrics();
-
-  ResourceManager* m_resourceManager;
   GameObject* m_player{nullptr}; 
   int m_enemyCount{0};
 };

@@ -2282,6 +2282,7 @@ CMakeFiles/practica06.dir/src/Engine/ResourceManager.cpp.o: /home/ebetus/Documen
 CMakeFiles/practica06.dir/src/Engine/Scene.cpp.o: /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Engine/Scene.cpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/include/Engine/Component.hpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/include/Engine/GameObject.hpp \
+  /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/include/Engine/ResourceManager.hpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/include/Engine/Scene.hpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/include/Engine/SceneManager.hpp \
   /usr/include/SDL3/SDL.h \
@@ -2344,6 +2345,7 @@ CMakeFiles/practica06.dir/src/Engine/Scene.cpp.o: /home/ebetus/Documents/Carrera
   /usr/include/SDL3/SDL_tray.h \
   /usr/include/SDL3/SDL_version.h \
   /usr/include/SDL3/SDL_video.h \
+  /usr/include/SDL3_image/SDL_image.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -2437,6 +2439,7 @@ CMakeFiles/practica06.dir/src/Engine/Scene.cpp.o: /home/ebetus/Documents/Carrera
   /usr/include/c++/16/bits/cpp_type_traits.h \
   /usr/include/c++/16/bits/cxxabi_forced.h \
   /usr/include/c++/16/bits/cxxabi_init_exception.h \
+  /usr/include/c++/16/bits/enable_special_members.h \
   /usr/include/c++/16/bits/erase_if.h \
   /usr/include/c++/16/bits/exception.h \
   /usr/include/c++/16/bits/exception_defines.h \
@@ -2444,6 +2447,8 @@ CMakeFiles/practica06.dir/src/Engine/Scene.cpp.o: /home/ebetus/Documents/Carrera
   /usr/include/c++/16/bits/functexcept.h \
   /usr/include/c++/16/bits/functional_hash.h \
   /usr/include/c++/16/bits/hash_bytes.h \
+  /usr/include/c++/16/bits/hashtable.h \
+  /usr/include/c++/16/bits/hashtable_policy.h \
   /usr/include/c++/16/bits/intcmp.h \
   /usr/include/c++/16/bits/invoke.h \
   /usr/include/c++/16/bits/ios_base.h \
@@ -2461,6 +2466,7 @@ CMakeFiles/practica06.dir/src/Engine/Scene.cpp.o: /home/ebetus/Documents/Carrera
   /usr/include/c++/16/bits/new_allocator.h \
   /usr/include/c++/16/bits/new_except.h \
   /usr/include/c++/16/bits/new_throw.h \
+  /usr/include/c++/16/bits/node_handle.h \
   /usr/include/c++/16/bits/ostream.h \
   /usr/include/c++/16/bits/ostream_insert.h \
   /usr/include/c++/16/bits/postypes.h \
@@ -2499,6 +2505,7 @@ CMakeFiles/practica06.dir/src/Engine/Scene.cpp.o: /home/ebetus/Documents/Carrera
   /usr/include/c++/16/bits/string_view.tcc \
   /usr/include/c++/16/bits/stringfwd.h \
   /usr/include/c++/16/bits/unique_ptr.h \
+  /usr/include/c++/16/bits/unordered_map.h \
   /usr/include/c++/16/bits/uses_allocator.h \
   /usr/include/c++/16/bits/uses_allocator_args.h \
   /usr/include/c++/16/bits/utility.h \
@@ -2542,6 +2549,7 @@ CMakeFiles/practica06.dir/src/Engine/Scene.cpp.o: /home/ebetus/Documents/Carrera
   /usr/include/c++/16/tuple \
   /usr/include/c++/16/type_traits \
   /usr/include/c++/16/typeinfo \
+  /usr/include/c++/16/unordered_map \
   /usr/include/c++/16/utility \
   /usr/include/c++/16/vector \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h \
@@ -2590,6 +2598,7 @@ CMakeFiles/practica06.dir/src/Engine/Scene.cpp.o: /home/ebetus/Documents/Carrera
 CMakeFiles/practica06.dir/src/Engine/SceneManager.cpp.o: /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/src/Engine/SceneManager.cpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/include/Engine/Component.hpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/include/Engine/GameObject.hpp \
+  /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/include/Engine/ResourceManager.hpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/include/Engine/Scene.hpp \
   /home/ebetus/Documents/Carrera/QuintoSemestre/MotorVideojuegos2D/Practicas/PracticasGitHub/practicas-motor/include/Engine/SceneManager.hpp \
   /usr/include/SDL3/SDL.h \
@@ -2652,6 +2661,7 @@ CMakeFiles/practica06.dir/src/Engine/SceneManager.cpp.o: /home/ebetus/Documents/
   /usr/include/SDL3/SDL_tray.h \
   /usr/include/SDL3/SDL_version.h \
   /usr/include/SDL3/SDL_video.h \
+  /usr/include/SDL3_image/SDL_image.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -2745,6 +2755,7 @@ CMakeFiles/practica06.dir/src/Engine/SceneManager.cpp.o: /home/ebetus/Documents/
   /usr/include/c++/16/bits/cpp_type_traits.h \
   /usr/include/c++/16/bits/cxxabi_forced.h \
   /usr/include/c++/16/bits/cxxabi_init_exception.h \
+  /usr/include/c++/16/bits/enable_special_members.h \
   /usr/include/c++/16/bits/erase_if.h \
   /usr/include/c++/16/bits/exception.h \
   /usr/include/c++/16/bits/exception_defines.h \
@@ -2752,6 +2763,8 @@ CMakeFiles/practica06.dir/src/Engine/SceneManager.cpp.o: /home/ebetus/Documents/
   /usr/include/c++/16/bits/functexcept.h \
   /usr/include/c++/16/bits/functional_hash.h \
   /usr/include/c++/16/bits/hash_bytes.h \
+  /usr/include/c++/16/bits/hashtable.h \
+  /usr/include/c++/16/bits/hashtable_policy.h \
   /usr/include/c++/16/bits/intcmp.h \
   /usr/include/c++/16/bits/invoke.h \
   /usr/include/c++/16/bits/ios_base.h \
@@ -2769,6 +2782,7 @@ CMakeFiles/practica06.dir/src/Engine/SceneManager.cpp.o: /home/ebetus/Documents/
   /usr/include/c++/16/bits/new_allocator.h \
   /usr/include/c++/16/bits/new_except.h \
   /usr/include/c++/16/bits/new_throw.h \
+  /usr/include/c++/16/bits/node_handle.h \
   /usr/include/c++/16/bits/ostream.h \
   /usr/include/c++/16/bits/ostream_insert.h \
   /usr/include/c++/16/bits/postypes.h \
@@ -2807,6 +2821,7 @@ CMakeFiles/practica06.dir/src/Engine/SceneManager.cpp.o: /home/ebetus/Documents/
   /usr/include/c++/16/bits/string_view.tcc \
   /usr/include/c++/16/bits/stringfwd.h \
   /usr/include/c++/16/bits/unique_ptr.h \
+  /usr/include/c++/16/bits/unordered_map.h \
   /usr/include/c++/16/bits/uses_allocator.h \
   /usr/include/c++/16/bits/uses_allocator_args.h \
   /usr/include/c++/16/bits/utility.h \
@@ -2850,6 +2865,7 @@ CMakeFiles/practica06.dir/src/Engine/SceneManager.cpp.o: /home/ebetus/Documents/
   /usr/include/c++/16/tuple \
   /usr/include/c++/16/type_traits \
   /usr/include/c++/16/typeinfo \
+  /usr/include/c++/16/unordered_map \
   /usr/include/c++/16/utility \
   /usr/include/c++/16/vector \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h \
@@ -4039,6 +4055,7 @@ practica06: /usr/lib/Scrt1.o \
   /usr/lib/libm.so.6 \
   /usr/lib/libmvec.so.1 \
   CMakeFiles/practica06.dir/src/Engine/Components/ColliderComponent.cpp.o \
+  CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o \
   CMakeFiles/practica06.dir/src/Engine/Components/RectRenderComponent.cpp.o \
   CMakeFiles/practica06.dir/src/Engine/Components/SpriteComponent.cpp.o \
   CMakeFiles/practica06.dir/src/Engine/Components/TransformComponent.cpp.o \
@@ -4317,6 +4334,8 @@ CMakeFiles/practica06.dir/src/Engine/Components/RectRenderComponent.cpp.o:
 /usr/include/bits/floatn-common.h:
 
 /usr/include/SDL3/SDL_tray.h:
+
+CMakeFiles/practica06.dir/src/Engine/Components/PlayerControllerComponent.cpp.o:
 
 /usr/include/bits/stdint-intn.h:
 

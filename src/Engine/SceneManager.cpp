@@ -8,8 +8,7 @@ void SceneManager::popSceneFromScenes() {
     auto &scene = m_scenes.back();
     m_scenes.pop_back();
     if(scene != nullptr)
-      scene->Exit();
-    
+      scene->Exit();    
   }
 }
 
@@ -43,7 +42,6 @@ void SceneManager::Clear() {
 }
 
 void SceneManager::ProcessPendingChanges() {
-  
   switch(m_pendingAction) {
   case SceneAction::None:
     return;
@@ -87,3 +85,11 @@ bool SceneManager::HasScenes() {
   return m_scenes.size() != 0;
 }
 
+bool SceneManager::QuitRequested() {
+  return quitRequest;
+}
+
+//Operación muy fuerte. Hace que se cierre el programa.
+void SceneManager::Quit() {
+  quitRequest = true;
+}

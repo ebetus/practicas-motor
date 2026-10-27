@@ -26,6 +26,8 @@ private:
 
   void transferPendingScene();
 
+  bool quitRequest{false};
+
 public:
   void ChangeScene(std::unique_ptr<Scene> new_scene);
 
@@ -44,5 +46,9 @@ public:
   void Render(SDL_Renderer *renderer);
 
   bool HasScenes();
+
+  bool QuitRequested();
+
+  void Quit();
 
 };

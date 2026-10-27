@@ -55,7 +55,13 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv) {
 
 SDL_AppResult SDL_AppIterate(void *appstate) {
 
+  
+
   AppState* app = static_cast<AppState*>(appstate);
+
+  if (app->sceneManager.QuitRequested()) {
+        return SDL_APP_SUCCESS;
+  }
 
   // 1. Medición de Delta Time en segundos
   Uint64 current_ticks = SDL_GetTicks();
